@@ -37,6 +37,7 @@ specta = { git = "https://github.com/0HyperCube/specta.git", rev = "c47a22b4c086
 rustc-hash = "1.1.0"
 # wasm-bindgen upgrades may break various things so we pin the version
 wasm-bindgen = "=0.2.87"
+gdk-sys = "0.15.1"  # Update this to the latest version
 dyn-any = { path = "libraries/dyn-any", features = ["derive", "glam"] }
 document-legacy = { path = "document-legacy", package = "graphite-document-legacy" }
 graphene-core = { path = "node-graph/gcore" }
